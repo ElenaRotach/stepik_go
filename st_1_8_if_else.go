@@ -21,4 +21,13 @@ func main() {
 		// v видима только в if
 		fmt.Println(v)
 	}
+
+	// if else
+	if a < b {
+		fmt.Println("a меньше b")
+	} else if a > b {
+		fmt.Println("a больше b")
+	} else {
+		fmt.Println("a равно b")
+	}
 }
