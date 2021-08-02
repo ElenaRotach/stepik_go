@@ -14,4 +14,12 @@ func main() {
 	fmt.Println(c)
 	fmt.Println(d)
 	fmt.Println(e)
+
+	// сравнение массивов
+	f := [3]int{1, 2, 3}
+	g := [3]int{1, 2, 3}
+	i := [3]int{3, 2, 1}
+
+	fmt.Println(f == g) // true
+	fmt.Println(f == i) // false
 }
