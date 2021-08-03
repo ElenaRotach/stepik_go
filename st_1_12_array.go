@@ -22,4 +22,33 @@ func main() {
 
 	fmt.Println(f == g) // true
 	fmt.Println(f == i) // false
+
+	// обращение по индексу
+	fmt.Println(b[0])     // 1
+	fmt.Println(b[2])     // 3
+
+	b[0] = 87
+
+	fmt.Println(b)     // 87
+
+	j := [5]int{1, 2, 3, 4, 5}
+	fmt.Println(j) // [1 2 3 4 5]
+
+	for k := 0; k < len(j); k++ {
+		fmt.Println(j[k])
+		// 1
+		// 2
+		// 3
+		// 4
+		// 5
+	}
+
+	for idx, elem := range j {
+		fmt.Printf("Элемент с индексом %d: %d\n", idx, elem)
+		// Элемент с индексом 0: 1
+		// Элемент с индексом 1: 2
+		// Элемент с индексом 2: 3
+		// Элемент с индексом 3: 4
+		// Элемент с индексом 4: 5
+	}
 }
