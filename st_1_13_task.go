@@ -17,4 +17,5 @@ func main() {
 	b += a / 100
 	b += (a / 10) % 10
 	fmt.Printf("%d", b)
+	
 }
