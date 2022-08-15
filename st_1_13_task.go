@@ -49,4 +49,6 @@ func main() {
 	g = (e - f*3600) / 60
 
 	fmt.Printf("It is %d hours %d minutes.", f, g)
+
+	//
 }
